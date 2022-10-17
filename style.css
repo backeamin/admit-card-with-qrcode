@@ -1,0 +1,91 @@
+
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalpurush', sans-serif;
+}
+.main-section{
+    text-align: center; 
+    width: 1009px;
+    margin: 0 auto;
+} 
+.main-section img{
+    width: 100%;
+}
+.mother-div{
+    position: relative;
+}
+.exam-name{
+    position: absolute;
+    left: 388px;
+    top: 238px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.academic-year{
+    position: absolute;
+    left: 371px;
+    top: 281px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.roll-number, .registration-number{
+    border: 2px solid black;
+    padding: 10px 10px;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+.registration-number{
+    position: absolute;
+    left: 237px;
+    top: 380px;
+}
+.madrasha-name, .student-name, .father-name, .examination-center, .date-of-birth{
+    font-weight: bold;
+    font-size: 20px;
+}
+.madrasha-name{
+    position: absolute;
+    left: 239px;
+    top: 440px;
+    
+}
+.student-name{
+    position: absolute;
+    left: 240px;
+    top: 479px;
+}
+.father-name{
+    position: absolute;
+    left: 241px;
+    top: 519px;
+}
+.examination-center{
+    position: absolute;
+    left: 244px;
+    top: 559px;
+}
+.roll-number{
+    position: absolute;
+    left: 781px;
+    top: 385px;
+}
+.date-of-birth{
+    position: absolute;
+    left: 804px;
+    top: 479px;
+}
+.image-div{
+    position: absolute;
+    width: 162px;
+    height: 161px;
+    left: 789px;
+    top: 198px;
+    border: 1px solid black;
+}
+.image-div img{
+    width: 95%;
+}
